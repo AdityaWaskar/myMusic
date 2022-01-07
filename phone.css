@@ -1,0 +1,85 @@
+nav{
+    flex-direction: column;
+    align-items: center;
+    /* position: fixed; */
+}
+
+#navigation{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.main{
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.subContainer{
+    /* height: 0px; */
+    margin: 0px auto;
+}
+/* 
+.songItemContainer{
+    height: 0px;
+} */
+
+#title{
+    font-size: 1.6rem;
+    margin: 2px 0px;
+}
+
+#cover{
+    height: 50%;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.musicBox{
+    text-align: center;
+    width: 70%;
+    margin: 60px auto;
+}
+
+#myProgressBar{
+    left: auto;
+    width: 60%;
+    bottom: 23px;
+}
+
+.icons{
+    left: 16%;
+    width: 47vw;
+}
+
+.button{
+    display: flex; 
+    flex-direction: column;
+}
+
+#masterSongName{
+    position: relative;
+    bottom: 90%;
+    right: 100%; 
+    font-size: 0rem;
+    
+}
+
+.container{
+    margin: 0px auto;
+    height: 0px;
+}
+
+.songName{
+    font-size: 0.8rem;
+}
+
+.songListPlay{
+    /* margin: 0px 0px; */
+    font-size: 10px;
+}
+
+.timeStap{
+    margin: 0px 5px;
+    display: flex;
+    gap: 3px;
+}

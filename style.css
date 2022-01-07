@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pushster&display=swap');
+body{
+    background-color: #000000;      
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    display: flex;
+}
+
+.musicBox{
+    width: 100%;
+}
+
+.cover {
+    height: 50%;
+    width: 33%;
+    border-radius: 12px;
+    top: 55px;
+    left: 210px;
+    position: relative;
+}
+
+.top {
+    font-family: 'Pushster', cursive;
+    position: relative;
+    top: 70px;
+    text-align-last: center;
+    color: white;
+    font-size: 2rem;
+    height: 34px;
+}
+
+#masterSongName{
+    color: white;
+    font-family: 'Bebas Neue', cursive; 
+    
+}
+
+nav {
+    font-family: 'Pushster', cursive;
+    display: flex;
+    font-size: 1.7rem;
+}
+    
+nav ul{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+    height: 56px;
+    /* background-color:rgb(0, 0, 0); */
+    color: white;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+#navigation{
+    margin: 0 200px ;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: skyblue;
+    
+    box-shadow: 2px 2px 3px rgba(217, 230, 235, 0.55)
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.brand img{
+    width: 40px;
+    padding: 0px 8px;
+    font-family: 'Pushster', cursive;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    width:81%;
+    position: sticky;
+    height: 45px;
+}
+
+.subContainer{  
+    color: black;
+    background-color: rgb(255 255 255 / 5%);        
+    min-height: 69vh;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    margin: 45px 25px;
+    width: 90%;
+    /* border-radius: 12px; */
+
+    padding: 14px 14px;
+    overflow-y: scroll ;
+}
+.container h1{
+    font-size: 1.4rem ;
+    color: white;
+}
+
+.bottom {
+    width: 60%;
+    height: 418px;
+    border-radius: 12px ;
+    margin: 31px 16px;
+}
+
+.icons {
+    margin-top: 11px;
+    cursor: pointer;
+    left: 40%;
+    bottom: 121px;
+    position: relative;
+    color: white;
+}
+
+.songItemContainer{
+    /* border: 2px solid red; */
+    margin-top: 91px;    
+}
+.songItem{
+    border: 2px solid rgb(2, 2, 2);
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    background-color: #22ebff;
+    width: 90%;
+    color: black;
+    margin: 11px auto;
+    border-radius: 34px;
+}
+
+.songItem img {
+    width: 38px;
+    margin: 15px 5px;
+    border-radius: 68px;
+}
+
+.timeStap{
+    margin: 0 23px;
+}
+
+.timeStap i{
+    cursor: pointer; 
+}
+
+.songInfo {
+    font-family: 'Pushster', cursive;
+    position: absolute;
+    left: 75vw;
+    top: 478px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* bottom: 688px; */
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+    height: 39px;
+    width: 71px;
+    position: relative;
+    top: 30px;
+}
+
+
+.musicBox{
+    box-shadow: 1px 1px 28px rgb(70 118 83);
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: rgba(132, 253, 52, 0.473);
+    margin: 43px 43px;
+    width: 30%;
+    height: 479px;
+}
+
+#title{
+    color: white;
+    font-size: 2rem;
+    /* position: absolute; */
+    height: 37px;   
+    font-family: 'Pushster', cursive;
+    text-align: center;
+}
+#cover {
+    box-shadow: 10px 11px 16px rgb(0 0 0);
+    height: 50%;
+    border-radius: 12px;
+    margin: 12px 12px;
+    position: relative;
+    left: 25%;
+    top: 40px;
+}
+
+#myProgressBar {
+    width: 21vw;
+    position: relative;
+    bottom: 117px;
+    left: 10%;
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+}
